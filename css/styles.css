@@ -65,3 +65,28 @@ body {
 .custom-carousel .carousel-control-next {
     right: 0;
 }
+
+/* Tarjetas de muebles */
+.mueble-card {
+    border: 1.5px solid #CBB79A;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(203,183,154,0.10);
+    transition: transform 0.2s;
+    background-color: #fff;
+}
+.mueble-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 6px 20px rgba(203,183,154,0.18);
+}
+.mueble-img {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.precio-mueble {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #b69975;
+    margin-bottom: 12px;
+}
