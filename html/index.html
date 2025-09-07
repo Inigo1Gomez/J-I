@@ -33,100 +33,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">                            <!-- Fila de 3 muebles -->
-                            <div class="container my-5">
-                              <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <!-- Mueble 1 -->
-                                <div class="col">
-                                  <div class="card h-100 mueble-card">
-                                    <img src="img/closet3puertas.webp" class="card-img-top mueble-img" alt="Mueble 1">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Closet</h5>
-                                      <p class="card-text precio-mueble">$129990</p>
-                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble1">Ver especificaciones</button>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- Mueble 2 -->
-                                <div class="col">
-                                  <div class="card h-100 mueble-card">
-                                    <img src="img/mueble.webp" class="card-img-top mueble-img" alt="Mueble 2">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Mueble</h5>
-                                      <p class="card-text precio-mueble">$199990</p>
-                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble2">Ver especificaciones</button>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- Mueble 3 -->
-                                <div class="col">
-                                  <div class="card h-100 mueble-card">
-                                    <img src="img/sofa.avif" class="card-img-top mueble-img" alt="Mueble 3">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Sofá</h5>
-                                      <p class="card-text precio-mueble">$299990</p>
-                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble3">Ver especificaciones</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            
-                            <!-- Modals de especificaciones -->
-                            <div class="modal fade" id="modalMueble1" tabindex="-1" aria-labelledby="modalMueble1Label" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="modalMueble1Label">Silla Moderna</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <ul>
-                                      <li>Material: a</li>
-                                      <li>Color: Blanco</li>
-                                      <li>Dimensiones: 80x45x45 cm</li>
-                                      <li>Peso: 99 kg</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="modal fade" id="modalMueble2" tabindex="-1" aria-labelledby="modalMueble2Label" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="modalMueble2Label">Mesa de Centro</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <ul>
-                                      <li>Material: a</li>
-                                      <li>Color: Nogal</li>
-                                      <li>Dimensiones: 120x60x40 cm</li>
-                                      <li>Peso: 99 kg</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="modal fade" id="modalMueble3" tabindex="-1" aria-labelledby="modalMueble3Label" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="modalMueble3Label">Estante Vintage</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <ul>
-                                      <li>Material: a</li>
-                                      <li>Color: Natural</li>
-                                      <li>Dimensiones: 180x80x30 cm</li>
-                                      <li>Peso: 32 kg</li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                            aria-expanded="false">
                             Muebles
                         </a>
                         <ul class="dropdown-menu">
@@ -165,8 +72,7 @@
     </nav>
     <!-- Fin Navbar -->
 
-    <!-- Inicio Carrusél-->
-
+    <!-- Carrusel aquí... -->
     <div id="carouselExample" class="carousel slide custom-carousel" data-bs-ride="carousel" data-bs-interval="5000">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -201,6 +107,101 @@
         </button>
     </div>
     <!-- Fin Carrusél-->
+
+    <!-- Fila de 3 muebles -->
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Mueble 1 -->
+        <div class="col">
+          <div class="card h-100 mueble-card">
+            <img src="img/closet3puertas.webp" class="card-img-top mueble-img" alt="Mueble 1">
+            <div class="card-body">
+              <h5 class="card-title">Closet</h5>
+              <p class="card-text precio-mueble">$129990</p>
+              <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble1">Ver especificaciones</button>
+            </div>
+          </div>
+        </div>
+        <!-- Mueble 2 -->
+        <div class="col">
+          <div class="card h-100 mueble-card">
+            <img src="img/mueble.webp" class="card-img-top mueble-img" alt="Mueble 2">
+            <div class="card-body">
+              <h5 class="card-title">Mueble</h5>
+              <p class="card-text precio-mueble">$199990</p>
+              <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble2">Ver especificaciones</button>
+            </div>
+          </div>
+        </div>
+        <!-- Mueble 3 -->
+        <div class="col">
+          <div class="card h-100 mueble-card">
+            <img src="img/sofa.avif" class="card-img-top mueble-img" alt="Mueble 3">
+            <div class="card-body">
+              <h5 class="card-title">Sofá</h5>
+              <p class="card-text precio-mueble">$299990</p>
+              <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble3">Ver especificaciones</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals de especificaciones -->
+    <div class="modal fade" id="modalMueble1" tabindex="-1" aria-labelledby="modalMueble1Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMueble1Label">Closet</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Material: Madera</li>
+              <li>Color: Blanco</li>
+              <li>Dimensiones: 180x120x50 cm</li>
+              <li>Peso: 99 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalMueble2" tabindex="-1" aria-labelledby="modalMueble2Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMueble2Label">Mueble</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Material: MDF</li>
+              <li>Color: Nogal</li>
+              <li>Dimensiones: 100x80x40 cm</li>
+              <li>Peso: 99 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalMueble3" tabindex="-1" aria-labelledby="modalMueble3Label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMueble3Label">Sofá</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Material: Tela y madera</li>
+              <li>Color: Gris</li>
+              <li>Dimensiones: 200x90x85 cm</li>
+              <li>Peso: 32 kg</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Inicio Login-->
 
