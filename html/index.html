@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>J&I</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Bootstrap" width="80" height="60" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catálogo</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">                            <!-- Fila de 3 muebles -->
+                            <div class="container my-5">
+                              <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <!-- Mueble 1 -->
+                                <div class="col">
+                                  <div class="card h-100 mueble-card">
+                                    <img src="img/closet3puertas.webp" class="card-img-top mueble-img" alt="Mueble 1">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Closet</h5>
+                                      <p class="card-text precio-mueble">$129990</p>
+                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble1">Ver especificaciones</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Mueble 2 -->
+                                <div class="col">
+                                  <div class="card h-100 mueble-card">
+                                    <img src="img/mueble.webp" class="card-img-top mueble-img" alt="Mueble 2">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Mueble</h5>
+                                      <p class="card-text precio-mueble">$199990</p>
+                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble2">Ver especificaciones</button>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Mueble 3 -->
+                                <div class="col">
+                                  <div class="card h-100 mueble-card">
+                                    <img src="img/sofa.avif" class="card-img-top mueble-img" alt="Mueble 3">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Sofá</h5>
+                                      <p class="card-text precio-mueble">$299990</p>
+                                      <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalMueble3">Ver especificaciones</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <!-- Modals de especificaciones -->
+                            <div class="modal fade" id="modalMueble1" tabindex="-1" aria-labelledby="modalMueble1Label" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="modalMueble1Label">Silla Moderna</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <ul>
+                                      <li>Material: a</li>
+                                      <li>Color: Blanco</li>
+                                      <li>Dimensiones: 80x45x45 cm</li>
+                                      <li>Peso: 99 kg</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="modalMueble2" tabindex="-1" aria-labelledby="modalMueble2Label" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="modalMueble2Label">Mesa de Centro</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <ul>
+                                      <li>Material: a</li>
+                                      <li>Color: Nogal</li>
+                                      <li>Dimensiones: 120x60x40 cm</li>
+                                      <li>Peso: 99 kg</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="modalMueble3" tabindex="-1" aria-labelledby="modalMueble3Label" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="modalMueble3Label">Estante Vintage</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <ul>
+                                      <li>Material: a</li>
+                                      <li>Color: Natural</li>
+                                      <li>Dimensiones: 180x80x30 cm</li>
+                                      <li>Peso: 32 kg</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            Muebles
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Living</a></li>
+                            <li><a class="dropdown-item" href="#">Oficina</a></li>
+                            <li><a class="dropdown-item" href="#">Baño</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contacto</a>
+                    </li>
+                </ul>
+                <div class="w-100 d-flex flex-column flex-md-row align-items-center">
+                    <form class="d-flex flex-grow-1 mb-2 mb-md-0 me-md-2" role="search" style="max-width: 350px;">
+                        <input class="form-control me-2" type="search" placeholder="Introduce un término de búsqueda"
+                            aria-label="Search" />
+                        <button class="btn custom-search-btn" type="submit">Buscar</button>
+                    </form>
+                    <div class="dropdown mb-2 mb-md-0 me-md-2">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="loginDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Inicia sesión
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="loginDropdown">
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#loginModal">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#registerModal">Registrar</a></li>
+                            <li><a class="dropdown-item" href="#">Mi cuenta</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline-secondary" type="button" title="Carrito de compras">
+                        <i class="bi bi-cart"></i>
+                    </button>
+                </div>
+    </nav>
+    <!-- Fin Navbar -->
+
+    <!-- Inicio Carrusél-->
+
+    <div id="carouselExample" class="carousel slide custom-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/living.jpg" class="imgCarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bienvenidos a J&I Muebles</h5>
+                    <p>Descubre nuestra colección exclusiva de muebles para cada rincón de tu hogar.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/cocina.jpg" class="imgCarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cocina</h5>
+                    <p>Diseños modernos y funcionales para tu cocina.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/baño.jpg" class="imgCarousel" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Baño</h5>
+                    <p>Renueva tu baño con estilo y calidad.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <!-- Fin Carrusél-->
+
+    <!-- Inicio Login-->
+
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Iniciar sesión</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="loginEmail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="loginPassword">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="loginRemember">
+                            <label class="form-check-label" for="loginRemember">Recuérdame</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin Login-->
+
+    <!-- Inicio Registro-->
+
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Registrar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="registerEmail" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="registerEmail"
+                                aria-describedby="registerEmailHelp">
+                            <div id="registerEmailHelp" class="form-text">Nunca compartiremos tu email con nadie más.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="registerPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="registerPassword">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="registerOver18" required>
+                            <label class="form-check-label" for="registerOver18">Confirmo que soy mayor de 18
+                                años</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fin  Registro-->
+
+    <!-- Inicio Contacto-->
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contacto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Dirección:</strong> Cumming 593, Valparaíso, Chile</p>
+                    <p><strong>Email:</strong> contacto@jimuebles.com</p>
+                    <p><strong>Teléfono:</strong> +56 9 5464 9483</p>
+                    <div class="text-center">
+                        <strong>Horario:</strong><br>
+                        Lunes a Viernes, 9:00 a 18:00<br>
+                        Sábado 12:00 a 15:00
+                        <div class="text-center mt-3">
+                            <a href="https://youtu.be/dQw4w9WgXcQ?si=pzFuDkJEoqfXC76o" target="_blank"
+                                class="btn btn-outline-primary me-2">
+                                <i class="bi bi-facebook"></i> Facebook
+                            </a>
+                            <a href="https://youtu.be/dQw4w9WgXcQ?si=pzFuDkJEoqfXC76o" target="_blank"
+                                class="btn btn-outline-danger">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fin Contacto-->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

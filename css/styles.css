@@ -1,0 +1,67 @@
+.search-form {
+    width: 1200px;
+}
+
+#loginDropdown.btn-primary {
+    background-color: #CBB79A; /*color*/
+    border-color: #CBB79A;
+    color: #fff;
+}
+#loginDropdown.btn-primary:hover, 
+#loginDropdown.btn-primary:focus {
+    background-color: #cfb07f; /*color*/
+    border-color: #CBB79A;
+    color: #fff;
+}
+
+body {
+    background-color: #FDF8F3 !important;
+}
+
+.navbar.bg-body-tertiary {
+    background-color: #E4D1B9 !important;
+}
+
+.custom-search-btn {
+    background-color: #b69975 !important; /* color de fondo del botón */
+    border-color: #b09e7a !important;     /* color del borde del botón */
+    color: #fff !important;               /* color del texto */
+    border-width: 2px !important;
+    border-style: solid !important;
+    box-shadow: none !important;          /* elimina sombras de Bootstrap */
+}
+.custom-search-btn:hover,
+.custom-search-btn:focus {
+    background-color: #b09e7a !important;
+    border-color: #8c7a5a !important;
+    color: #fff !important;
+}
+
+.search-form input[type="search"] {
+    flex-grow: 1;
+}
+
+.imgCarousel {
+    width: 80vw;         /* Ajusta el ancho, por ejemplo 70% del viewport */
+    max-width: 1000px;    /* Máximo ancho en píxeles */
+    height: 400px;       /* Alto fijo para forma rectangular */
+    margin: 40px auto;   /* Centra el carrusel horizontalmente y agrega margen arriba/abajo */
+    display: block;
+    object-fit: cover;   /* Asegura que la imagen se recorte bien dentro del rectángulo */
+    border-radius: 18px; /* Opcional: bordes redondeados */
+}
+
+.custom-carousel {
+    position: relative;
+    width: 80vw;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.custom-carousel .carousel-control-prev {
+    left: 0;
+}
+
+.custom-carousel .carousel-control-next {
+    right: 0;
+}
